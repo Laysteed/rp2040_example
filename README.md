@@ -53,7 +53,7 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 
 ---
 
-## 🚀 Workflow & Makefile Commands
+## Makefile commands
 
 This repository includes a smart `Makefile` that handles the entire building, flashing, and monitoring pipeline.
 
