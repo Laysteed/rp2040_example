@@ -21,7 +21,7 @@ sudo pacman -S git cmake make arm-none-eabi-gcc arm-none-eabi-newlib libusb scre
 
 ```bash
 mkdir ~/pico && cd ~/pico
-git clone -b master [https://github.com/raspberrypi/pico-sdk.git](https://github.com/raspberrypi/pico-sdk.git)
+git clone -b master https://github.com/raspberrypi/pico-sdk.git
 cd pico-sdk
 git submodule update --init
 
@@ -33,7 +33,7 @@ git submodule update --init
 
 ```bash
 cd ~/pico
-git clone -b master [https://github.com/raspberrypi/picotool.git](https://github.com/raspberrypi/picotool.git)
+git clone -b master https://github.com/raspberrypi/picotool.git
 cd picotool && mkdir build && cd build
 PICO_SDK_PATH=$HOME/pico/pico-sdk cmake ..
 make -j$(nproc)
